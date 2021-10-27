@@ -1,0 +1,83 @@
+{
+  "configVersion": 1,
+  "timestamp": 1635338684003,
+  "index": "https://admtz.github.io/carrito-page/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://admtz.github.io/carrito-page/favicon.ico",
+        "https://admtz.github.io/carrito-page/index.html",
+        "https://admtz.github.io/carrito-page/main.0098a17c7d11dc60c3f8.js",
+        "https://admtz.github.io/carrito-page/manifest.webmanifest",
+        "https://admtz.github.io/carrito-page/polyfills.77a1993727a31fa030dd.js",
+        "https://admtz.github.io/carrito-page/runtime.18821b64a88c577ecb6a.js",
+        "https://admtz.github.io/carrito-page/styles.11cf6b3a7e166a1bde8d.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://admtz.github.io/carrito-page/assets/icons/icon-128x128.png",
+        "https://admtz.github.io/carrito-page/assets/icons/icon-144x144.png",
+        "https://admtz.github.io/carrito-page/assets/icons/icon-152x152.png",
+        "https://admtz.github.io/carrito-page/assets/icons/icon-192x192.png",
+        "https://admtz.github.io/carrito-page/assets/icons/icon-384x384.png",
+        "https://admtz.github.io/carrito-page/assets/icons/icon-512x512.png",
+        "https://admtz.github.io/carrito-page/assets/icons/icon-72x72.png",
+        "https://admtz.github.io/carrito-page/assets/icons/icon-96x96.png",
+        "https://admtz.github.io/carrito-page/assets/shipping.json"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://admtz.github.io/carrito-page/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://admtz.github.io/carrito-page/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://admtz.github.io/carrito-page/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://admtz.github.io/carrito-page/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://admtz.github.io/carrito-page/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://admtz.github.io/carrito-page/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://admtz.github.io/carrito-page/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://admtz.github.io/carrito-page/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://admtz.github.io/carrito-page/assets/shipping.json": "9f9e342c76babd68907ccdb6c8d75b761fac74e1",
+    "https://admtz.github.io/carrito-page/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://admtz.github.io/carrito-page/index.html": "f924a339505843125ff94d5587ded1e18aac1ae7",
+    "https://admtz.github.io/carrito-page/main.0098a17c7d11dc60c3f8.js": "0776ae00ed789373c30d64c7e8891c9c7286c663",
+    "https://admtz.github.io/carrito-page/manifest.webmanifest": "5b11e35c68e709b7cac3f52993049cc430ce1626",
+    "https://admtz.github.io/carrito-page/polyfills.77a1993727a31fa030dd.js": "4cf661614a4ec3db0f1098456e80b8d00128d1d0",
+    "https://admtz.github.io/carrito-page/runtime.18821b64a88c577ecb6a.js": "7e55b36d225118431e7c39e9bc0c06b3379216b2",
+    "https://admtz.github.io/carrito-page/styles.11cf6b3a7e166a1bde8d.css": "afdfbd6fa0a454418a996df3f3117579c16d465e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
